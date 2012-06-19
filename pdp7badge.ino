@@ -1,12 +1,10 @@
 /*
- Fade
- 
- This example shows how to fade an LED on pin 9
- using the analogWrite() function.
- 
- This example code is in the public domain.
- 
- */
+Sketch: pdp7badge
+Author: Drew Fustini
+Date: 2012-06-19
+URL: http://www.element14.com/community/blogs/pdp7/tags/pdp7badge
+Desc: Twitter name badge displaying "PdP7".  Pot controls speed of illumination pattern.   Based on Fade example from Arduino IDE
+*/
 
 #define NDIGIT 4
 #define NSEQ 2
@@ -94,9 +92,3 @@ void loop()  {
   }
   delay(10*delayAmount);
 }
-
-
-
-
-
-
